@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    background: #08031b;
+    color: white;
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    flex-flow: column;
+    padding: 100px 60px;
+}
+
+.caption {
+    color: white;
+    text-align: center;
+    border: 1px rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+#selector {
+    color: white;
+    text-align: center;
+    border: 1px rgb(255, 255, 255);
+}
+
+.table_wrap {
+    padding: 0px 40px 40px 40px;
+}
+
+.banner {
+    border-collapse: collapse;
+    padding: 20px;
+    width: 826px;
+}
+
+.spacer {
+    padding: 20px;
+}
+
+.search_wrap {
+    width: 162px;
+}
+
+#search_box {
+    display: inline-block;
+    align-items: center;
+    width: 150px;
+    background-color: azure;
+    border-radius: 7px;
+    border-color: rgb(1, 125, 178);
+    border-style: solid;
+    border-width: 2px;
+}
+
+*,:before,:after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+.data_wrap {
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.data {
+    grid-template-columns: repeat(6,minmax(0,1fr));
+}
+
+.status {
+    gap: 0.25rem;
+}
+
+.desc_wrap {
+    grid-template-columns: repeat(1,minmax(0,1fr));
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.sub_ability {
+    width: 100%;
+    padding-bottom: 0.25rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.face {
+    display: flex;
+    grid-column: span 4 / span 4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    overflow: hidden;
+    position: relative;
+    padding: 50% 50% 30% 50%;
+    border-radius: 0.5rem;
+}
+
+.face > span {
+    word-break: keep-all;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#pal_name {
+    white-space: nowrap;
+    text-align: center;
+    line-height: 2.25rem;
+    position: absolute;
+    padding: 0 30px;
+    font-size: 2rem;
+}
+
+.status_wrap {
+    grid-column: span 2 / span 2;
+}
+
+.status_node {
+    color: white;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    background-color: rgb(30, 30, 77);
+}
+
+.status_node > div {
+    padding: 10px 20px;
+}

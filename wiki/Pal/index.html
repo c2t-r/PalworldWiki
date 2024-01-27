@@ -1,0 +1,125 @@
+<html>
+
+<head>
+    <title>Palworld wiki by c2tr</title>
+    <meta name="author" content="c2tr">
+    <meta name="theme-color" content="#acfff8" data-react-helmet="true">
+    <meta property="og:title" content="Palworld wiki by c2tr">
+    <meta property="og:description" content="Palworld wiki by c2tr">
+    <meta property="og:image" content="https://example.com/thumbnail.png">
+    <meta property="og:image:type" content="image/png">
+    <!--twitter-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Palworld wiki by c2tr">
+    <meta name="twitter:description" content="Palworld wiki by c2tr">
+    <meta name="twitter:image" content="https://example.com/thumbnail.png">
+    <meta name="twitter:image:alt" content="Palworld wiki by c2tr">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="table_wrap">
+            <div class="caption">Palworld wiki by c2tr</div>
+        </div>
+
+        <div class="spacer" id="selector">
+            <select list="characters" id="search_box">
+                <option hidden>パル</option>
+            </select>
+        </div>
+
+        <div class="data_wrap grid">
+            <div class="data grid">
+                <div class="spacer face center">
+                    <span style="visibility: hidden;">
+                        <div id="pal_name">name</div>
+                    </span>
+                </div>
+                <div class="spacer status_wrap">
+                    <div class="status grid">
+                        <div class="status_node grid" id="status_type_index">
+                            <div class="status_type center">図鑑No</div>
+                            <div class="status_value center">???</div>
+                        </div>
+                        <div class="status_node grid" id="status_type_hp">
+                            <div class="status_type center">HP</div>
+                            <div class="status_value center">???</div>
+                        </div>
+                        <div class="status_node grid" id="status_type_def">
+                            <div class="status_type center">防御力</div>
+                            <div class="status_value center">???</div>
+                        </div>
+                        <div class="status_node grid" id="status_type_matk">
+                            <div class="status_type center">近接攻撃力</div>
+                            <div class="status_value center">???</div>
+                        </div>
+                        <div class="status_node grid" id="status_type_satk">
+                            <div class="status_type center">遠距離攻撃力</div>
+                            <div class="status_value center">???</div>
+                        </div>
+                        <div class="status_node grid spacer" style="visibility: hidden;"></div>
+                        <div class="status_node grid" id="status_type_food">
+                            <div class="status_type center">空腹速度</div>
+                            <div class="status_value center">???</div>
+                        </div>
+                        <div class="status_node grid" id="status_type_work_speed">
+                            <div class="status_type center">作業速度</div>
+                            <div class="status_value center">???</div>
+                        </div>
+                        <div class="status_node grid" id="status_type_rarity">
+                            <div class="status_type center">レア度</div>
+                            <div class="status_value center">???</div>
+                        </div>
+                        <div class="status_node grid" id="status_type_price">
+                            <div class="status_type center">売却額</div>
+                            <div class="status_value center">???</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="desc_wrap grid">
+            <div class="subability grid">
+                <table>
+                    <tr>
+                        <td class="sub_ability center" id="sub_ability_0_type"><img src="../../image/InGame/T_icon_palwork_00.png" alt="sub_ability_0"></td>
+                        <td class="sub_ability center" id="sub_ability_1_type"><img src="../../image/InGame/T_icon_palwork_01.png" alt="sub_ability_1"></td>
+                        <td class="sub_ability center" id="sub_ability_2_type"><img src="../../image/InGame/T_icon_palwork_02.png" alt="sub_ability_2"></td>
+                        <td class="sub_ability center" id="sub_ability_3_type"><img src="../../image/InGame/T_icon_palwork_03.png" alt="sub_ability_3"></td>
+                        <td class="sub_ability center" id="sub_ability_4_type"><img src="../../image/InGame/T_icon_palwork_04.png" alt="sub_ability_4"></td>
+                        <td class="sub_ability center" id="sub_ability_5_type"><img src="../../image/InGame/T_icon_palwork_05.png" alt="sub_ability_5"></td>
+                        <td class="sub_ability center" id="sub_ability_6_type"><img src="../../image/InGame/T_icon_palwork_06.png" alt="sub_ability_6"></td>
+                        <td class="sub_ability center" id="sub_ability_7_type"><img src="../../image/InGame/T_icon_palwork_07.png" alt="sub_ability_7"></td>
+                        <td class="sub_ability center" id="sub_ability_8_type"><img src="../../image/InGame/T_icon_palwork_08.png" alt="sub_ability_8"></td>
+                        <td class="sub_ability center" id="sub_ability_9_type"><img src="../../image/InGame/T_icon_palwork_09.png" alt="sub_ability_9"></td>
+                        <td class="sub_ability center" id="sub_ability_10_type"><img src="../../image/InGame/T_icon_palwork_10.png" alt="sub_ability_10"></td>
+                        <td class="sub_ability center" id="sub_ability_11_type"><img src="../../image/InGame/T_icon_palwork_11.png" alt="sub_ability_11"></td>
+                        <td class="sub_ability center" id="sub_ability_12_type"><img src="../../image/InGame/T_icon_palwork_12.png" alt="sub_ability_12"></td>
+                    </tr>
+                    <tr>
+                        <td class="sub_ability center" id="sub_ability_0_value"></td>
+                        <td class="sub_ability center" id="sub_ability_1_value"></td>
+                        <td class="sub_ability center" id="sub_ability_2_value"></td>
+                        <td class="sub_ability center" id="sub_ability_3_value"></td>
+                        <td class="sub_ability center" id="sub_ability_4_value"></td>
+                        <td class="sub_ability center" id="sub_ability_5_value"></td>
+                        <td class="sub_ability center" id="sub_ability_6_value"></td>
+                        <td class="sub_ability center" id="sub_ability_7_value"></td>
+                        <td class="sub_ability center" id="sub_ability_8_value"></td>
+                        <td class="sub_ability center" id="sub_ability_9_value"></td>
+                        <td class="sub_ability center" id="sub_ability_10_value"></td>
+                        <td class="sub_ability center" id="sub_ability_11_value"></td>
+                        <td class="sub_ability center" id="sub_ability_12_value"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <datalist id="characters">
+        </datalist>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
