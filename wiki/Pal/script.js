@@ -1,4 +1,4 @@
-const dir = "https://raw.githubusercontent.com/c2t-r/PalwroldData/main/"
+const dir = "https://raw.githubusercontent.com/c2t-r/PalworldData/main/"
 
 async function fetchJson(path) {
     const url = dir + path
